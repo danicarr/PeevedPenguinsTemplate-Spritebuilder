@@ -2,7 +2,7 @@
 //  Seal.m
 //  PeevedPenguins
 //
-//  Created by danicarr on 1/10/15.
+//  Created by danicarr on 1/11/15.
 //  Copyright (c) 2015 Apportable. All rights reserved.
 //
 
@@ -10,11 +10,11 @@
 
 @implementation Seal
 
--(id) init{
-    self= [super init];
+- (id)init {
+    self = [super init];
     
-    if(self){
-        CCLOG(@"Penguin Created!");
+    if (self) {
+        CCLOG(@"Seal created");
     }
     
     return self;

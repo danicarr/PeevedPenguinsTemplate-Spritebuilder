@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
-		B53CB35F1A61D26D00E4DD98 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = B53CB35E1A61D26D00E4DD98 /* Penguin.m */; };
-		B53CB36C1A61D27F00E4DD98 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = B53CB36B1A61D27F00E4DD98 /* Seal.m */; };
+		B59FA3161A63884A0089C708 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = B59FA3151A63884A0089C708 /* Penguin.m */; };
+		B59FA3191A63886E0089C708 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = B59FA3181A63886E0089C708 /* Seal.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -80,10 +80,10 @@
 
 /* Begin PBXFileReference section */
 		8392007918EE8E3300B6C429 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		B53CB35D1A61D26D00E4DD98 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
-		B53CB35E1A61D26D00E4DD98 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
-		B53CB36A1A61D27F00E4DD98 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
-		B53CB36B1A61D27F00E4DD98 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
+		B59FA3141A63884A0089C708 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
+		B59FA3151A63884A0089C708 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
+		B59FA3171A63886E0089C708 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
+		B59FA3181A63886E0089C708 /* Seal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seal.m; path = Source/Seal.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -152,14 +152,14 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B59FA3171A63886E0089C708 /* Seal.h */,
+				B59FA3181A63886E0089C708 /* Seal.m */,
+				B59FA3141A63884A0089C708 /* Penguin.h */,
+				B59FA3151A63884A0089C708 /* Penguin.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
-				B53CB35D1A61D26D00E4DD98 /* Penguin.h */,
-				B53CB35E1A61D26D00E4DD98 /* Penguin.m */,
-				B53CB36A1A61D27F00E4DD98 /* Seal.h */,
-				B53CB36B1A61D27F00E4DD98 /* Seal.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -395,10 +395,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B53CB36C1A61D27F00E4DD98 /* Seal.m in Sources */,
+				B59FA3191A63886E0089C708 /* Seal.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
-				B53CB35F1A61D26D00E4DD98 /* Penguin.m in Sources */,
+				B59FA3161A63884A0089C708 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
