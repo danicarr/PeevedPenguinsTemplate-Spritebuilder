@@ -12,7 +12,7 @@
     CCPhysicsNode *_physicsNode;
     CCNode *_catapultArm;
     CCNode *_levelNode;
-    CCNode *_contentCode;
+    CCNode *_contentNode;
 }
 
 // is called when CCB file has completed loading
