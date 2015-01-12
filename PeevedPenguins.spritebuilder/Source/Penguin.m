@@ -14,7 +14,7 @@
     self= [super init];
     
     if(self){
-        CCLOG(@"Penguin Created!");
+        NSLOG(@"Penguin Created!");
     }
     
     return self;
